@@ -15,9 +15,9 @@ class PauseMenuViewController: UIViewController {
     @IBOutlet weak var label3: UILabel!
     @IBOutlet weak var goBackButton: UIButton!
     
-    var label1Text = "32 cards remaining (20%)"
-    var label2Text = "3 sets collected"
-    var label3Text = "4 sets on table"
+    var label1Text = "xx cards remaining (xx%)"
+    var label2Text = "x sets collected"
+    var label3Text = "x sets on table"
     var goBackButtonEnbled = true
     var completion: (SetGame?) -> Void = { _ in }
     

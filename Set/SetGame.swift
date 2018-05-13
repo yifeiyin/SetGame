@@ -45,7 +45,7 @@ class SetGame {
     var numberOfNewCardsRemaining: Int { return newCards.count }
     var matchingStatus: MatchingStatus { return PerformMatchTest() }
     var isAbleToDealThreeMoreCards: Bool { return tableCards.count + 3 <= maxTableCardsNumber && newCards.count > 0 }
-    var isGameCompleted: Bool { return newCards.isEmpty && tableCards.isEmpty }
+    var isGameCompleted: Bool { return newCards.isEmpty && numberOfSetsOnTable > 0 }
     
     // MARK: Actions
     
@@ -66,6 +66,8 @@ class SetGame {
     }
     
     func SelectCard(card newSelectedCard: SetCard) {
+        _isShowingHint = false
+        
         let isInSelection = selectedCards.contains(newSelectedCard)
         switch matchingStatus {
         case .match:
@@ -83,7 +85,7 @@ class SetGame {
             }
         }
         
-        while numberOfSetsOnTable == 0 {
+        while numberOfSetsOnTable == 0 && !isGameCompleted {
             DealThreeMoreCards()
         }
     }
