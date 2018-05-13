@@ -25,4 +25,9 @@ start with 12 cards
 select at most 3 cards
 when another other than these three is selected, deselect all, select the new one
 
+cycle through:
+⏱ 1:23               time consumed
+4 on table       numbers of sets on table
 
+32 cards remaining             numbers of cards remaining
+Got 4 sets     numbers of sets have got

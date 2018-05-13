@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tli-ba-5vn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="crr-pC-ea6">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -34,7 +35,7 @@
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="CbP-Bm-uuC"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="CbP-Bm-uuC"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5Q-Hi-KQz">
@@ -42,7 +43,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="uV1-Nt-MMr"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="uV1-Nt-MMr"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u3C-fX-m9K">
@@ -50,7 +51,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="keu-Bc-DnO"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="keu-Bc-DnO"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nyH-ON-6I1">
@@ -58,7 +59,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="V8u-IN-5RA"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="V8u-IN-5RA"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -77,7 +78,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="TwU-DN-xhb"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="TwU-DN-xhb"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d16-ut-TIa">
@@ -85,7 +86,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="u0P-fo-8IA"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="u0P-fo-8IA"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iTJ-qe-ldQ">
@@ -93,7 +94,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="ZSf-pz-Q8K"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="ZSf-pz-Q8K"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N5G-Sr-JVa">
@@ -101,7 +102,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="wzm-LP-WTd"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="wzm-LP-WTd"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -120,7 +121,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="wRk-tb-FLA"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="wRk-tb-FLA"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2K-ps-IH5">
@@ -128,7 +129,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="Umd-pR-FoG"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="Umd-pR-FoG"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B4H-9c-t2P">
@@ -136,7 +137,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="747-c1-q35"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="747-c1-q35"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6l-yk-ABa">
@@ -144,7 +145,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="ESf-CK-qZv"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="ESf-CK-qZv"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -163,7 +164,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="lVY-2I-HT1"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="lVY-2I-HT1"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Odm-1t-u4I">
@@ -171,7 +172,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="xAa-LF-SOK"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="xAa-LF-SOK"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K1k-zW-YKl">
@@ -179,7 +180,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="3p8-9O-Mi1"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="3p8-9O-Mi1"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GKp-y5-AGz">
@@ -187,7 +188,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="OH4-SG-Op5"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="OH4-SG-Op5"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -206,7 +207,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="uKC-QO-pR9"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="uKC-QO-pR9"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EBO-hN-51m">
@@ -214,7 +215,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="q9P-jD-13V"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="q9P-jD-13V"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="al9-eq-WbQ">
@@ -222,7 +223,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="fQa-Wm-17i"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="fQa-Wm-17i"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F6o-sF-n4h">
@@ -230,7 +231,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="O3q-jT-YXk"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="O3q-jT-YXk"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -249,7 +250,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="Rm7-5z-j74"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="Rm7-5z-j74"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R05-pB-6gt">
@@ -257,7 +258,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="Gkb-ja-TkW"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="Gkb-ja-TkW"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epB-5r-s8p">
@@ -265,7 +266,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="AOI-Jy-xKS"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="AOI-Jy-xKS"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mvc-RX-bdr">
@@ -273,7 +274,7 @@
                                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
-                                                            <action selector="cardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="mAK-DM-RN8"/>
+                                                            <action selector="CardButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="mAK-DM-RN8"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -294,16 +295,40 @@
                                             <constraint firstItem="CEy-x2-edq" firstAttribute="width" secondItem="egw-yB-LNO" secondAttribute="width" id="jQs-OW-CZE"/>
                                         </constraints>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zBM-mH-fGh">
-                                        <rect key="frame" x="118.5" y="569.5" width="128" height="77.5"/>
-                                        <state key="normal" title="Deal 3 More Cards"/>
-                                        <connections>
-                                            <action selector="DealThreeMoreCardsButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="4EN-qO-ehE"/>
-                                        </connections>
-                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="LJE-cX-gVF">
+                                        <rect key="frame" x="0.0" y="569.5" width="365" height="77.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fw2-km-c1X">
+                                                <rect key="frame" x="0.0" y="23.5" width="83.5" height="30"/>
+                                                <state key="normal" title="Utilities"/>
+                                                <connections>
+                                                    <action selector="UtilityButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="1VZ-bz-zvr"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zBM-mH-fGh">
+                                                <rect key="frame" x="91.5" y="23.5" width="182.5" height="30"/>
+                                                <state key="normal" title="Deal 3 More Cards"/>
+                                                <connections>
+                                                    <action selector="DealThreeMoreCardsButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="4EN-qO-ehE"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auc-8b-ePU">
+                                                <rect key="frame" x="282" y="23.5" width="83" height="30"/>
+                                                <state key="normal" title="Menu"/>
+                                                <connections>
+                                                    <action selector="MenuButtonPressed:" destination="tli-ba-5vn" eventType="touchUpInside" id="H6b-oK-9KH"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="zBM-mH-fGh" firstAttribute="width" secondItem="LJE-cX-gVF" secondAttribute="width" multiplier="0.5" id="1K1-Pa-4Ny"/>
+                                            <constraint firstItem="Fw2-km-c1X" firstAttribute="width" secondItem="auc-8b-ePU" secondAttribute="width" id="e7S-pt-F36"/>
+                                        </constraints>
+                                    </stackView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="egw-yB-LNO" firstAttribute="width" secondItem="1i1-Ey-ErY" secondAttribute="width" id="B4e-vF-eIS"/>
+                                    <constraint firstItem="LJE-cX-gVF" firstAttribute="width" secondItem="1i1-Ey-ErY" secondAttribute="width" id="UQ0-IQ-MCk"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -316,8 +341,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Q8S-sX-PxY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="EPq-rN-DzL"/>
                     <connections>
-                        <outlet property="DealThreeMoreCardsButton" destination="zBM-mH-fGh" id="U52-GJ-teV"/>
+                        <outlet property="dealThreeMoreCardsButton" destination="zBM-mH-fGh" id="U52-GJ-teV"/>
+                        <outlet property="menuButton" destination="auc-8b-ePU" id="yUI-Oi-a7I"/>
+                        <outlet property="utilityButton" destination="Fw2-km-c1X" id="l1c-Xi-CeD"/>
                         <outletCollection property="cardButtons" destination="PUP-oB-Vh8" collectionClass="NSMutableArray" id="ydg-Xc-aEK"/>
                         <outletCollection property="cardButtons" destination="s5Q-Hi-KQz" collectionClass="NSMutableArray" id="ynn-JD-ArP"/>
                         <outletCollection property="cardButtons" destination="u3C-fX-m9K" collectionClass="NSMutableArray" id="h6l-3U-kJ6"/>
@@ -342,11 +370,96 @@
                         <outletCollection property="cardButtons" destination="R05-pB-6gt" collectionClass="NSMutableArray" id="u3C-8C-lkH"/>
                         <outletCollection property="cardButtons" destination="epB-5r-s8p" collectionClass="NSMutableArray" id="hMe-Gg-k1e"/>
                         <outletCollection property="cardButtons" destination="Mvc-RX-bdr" collectionClass="NSMutableArray" id="cM5-vE-1V1"/>
+                        <segue destination="Ni2-lw-tNe" kind="presentation" identifier="ShowPauseMenuSegue" id="mkU-yu-5QE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P6u-SN-0oL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-18" y="125"/>
+            <point key="canvasLocation" x="920.79999999999995" y="124.58770614692655"/>
+        </scene>
+        <!--Pause Menu View Controller-->
+        <scene sceneID="r9V-Qp-8Yr">
+            <objects>
+                <viewController storyboardIdentifier="PauseMenuViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ni2-lw-tNe" customClass="PauseMenuViewController" customModule="Set" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="vxJ-ZK-wys">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="xNy-0p-7Vi">
+                                <rect key="frame" x="150" y="196.5" width="75" height="275"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tus-5w-or7">
+                                        <rect key="frame" x="16.5" y="0.0" width="42" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZvG-6a-vbO">
+                                        <rect key="frame" x="16.5" y="50" width="42" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V4i-CN-stU">
+                                        <rect key="frame" x="16.5" y="100" width="42" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tYu-nM-Pgv">
+                                        <rect key="frame" x="0.0" y="145" width="75" height="30"/>
+                                        <state key="normal" title="New Game"/>
+                                        <connections>
+                                            <action selector="NewGameButtonPressed:" destination="Ni2-lw-tNe" eventType="touchUpInside" id="Bcy-DJ-tzv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L5E-UK-bgY">
+                                        <rect key="frame" x="22.5" y="195" width="30" height="30"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yFD-rY-YzK">
+                                        <rect key="frame" x="9" y="245" width="57" height="30"/>
+                                        <state key="normal" title="Go back"/>
+                                        <connections>
+                                            <action selector="GoBackButtonPressed:" destination="Ni2-lw-tNe" eventType="touchUpInside" id="zeE-3r-364"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xNy-0p-7Vi" firstAttribute="centerY" secondItem="vxJ-ZK-wys" secondAttribute="centerY" id="YHO-H7-AUw"/>
+                            <constraint firstItem="xNy-0p-7Vi" firstAttribute="centerX" secondItem="vxJ-ZK-wys" secondAttribute="centerX" id="crq-dn-V7o"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="s4w-Rh-fWv"/>
+                    </view>
+                    <connections>
+                        <outlet property="goBackButton" destination="yFD-rY-YzK" id="xqJ-fb-WTQ"/>
+                        <outlet property="label1" destination="tus-5w-or7" id="fFP-1D-CBs"/>
+                        <outlet property="label2" destination="ZvG-6a-vbO" id="uqa-zy-e8M"/>
+                        <outlet property="label3" destination="V4i-CN-stU" id="u7j-A5-kY0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ixH-c1-IAR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1644" y="121.88905547226388"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8T5-Qs-0ZM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="crr-pC-ea6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tTq-A7-EWW">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="tli-ba-5vn" kind="relationship" relationship="rootViewController" id="MIJ-Ly-BdO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x4f-Rc-CQy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="204" y="125"/>
         </scene>
     </scenes>
 </document>

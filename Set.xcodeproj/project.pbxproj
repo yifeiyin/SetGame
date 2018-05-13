@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EA72DC9B20A56938001E3A9C /* SetGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA72DC9A20A56938001E3A9C /* SetGameViewController.swift */; };
+		EAC2F05B20A6B80500630EF7 /* PauseMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC2F05A20A6B80500630EF7 /* PauseMenuViewController.swift */; };
 		EAF8053720A2967600C4B2F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF8053620A2967600C4B2F4 /* AppDelegate.swift */; };
 		EAF8053C20A2967600C4B2F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF8053A20A2967600C4B2F4 /* Main.storyboard */; };
 		EAF8053E20A2967700C4B2F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF8053D20A2967700C4B2F4 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		EA72DC9A20A56938001E3A9C /* SetGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGameViewController.swift; sourceTree = "<group>"; };
+		EAC2F05A20A6B80500630EF7 /* PauseMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseMenuViewController.swift; sourceTree = "<group>"; };
 		EAF8053320A2967600C4B2F4 /* Set.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Set.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF8053620A2967600C4B2F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAF8053B20A2967600C4B2F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 		EAF8052A20A2967600C4B2F4 = {
 			isa = PBXGroup;
 			children = (
+				EAF8054920A296AB00C4B2F4 /* README.md */,
 				EAF8053520A2967600C4B2F4 /* Set */,
 				EAF8053420A2967600C4B2F4 /* Products */,
 			);
@@ -63,11 +66,11 @@
 			children = (
 				EAF8053A20A2967600C4B2F4 /* Main.storyboard */,
 				EA72DC9A20A56938001E3A9C /* SetGameViewController.swift */,
+				EAC2F05A20A6B80500630EF7 /* PauseMenuViewController.swift */,
 				EAF8054E20A2A2E700C4B2F4 /* SetCard.swift */,
 				EAF8055020A2A2F400C4B2F4 /* SetGame.swift */,
 				EAF8054820A2968100C4B2F4 /* Supporting Files */,
 				EAF8054220A2967700C4B2F4 /* Info.plist */,
-				EAF8054920A296AB00C4B2F4 /* README.md */,
 			);
 			path = Set;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC2F05B20A6B80500630EF7 /* PauseMenuViewController.swift in Sources */,
 				EAF8054F20A2A2E700C4B2F4 /* SetCard.swift in Sources */,
 				EAF8055120A2A2F400C4B2F4 /* SetGame.swift in Sources */,
 				EAF8053720A2967600C4B2F4 /* AppDelegate.swift in Sources */,
