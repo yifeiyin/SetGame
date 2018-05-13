@@ -15,6 +15,8 @@ I will try to impliment something more fun next time.
 In this implementation, rules of MVC are followed at all times. There are barely nested functions. Variables 
 and functions are grouped to make things more clear. The code should be, at least, somewhat readable.
 
+Total time consumed: 14.0 hours. Over five days: 2018 May 8 - 12
+
 Based on Stanford CS193p 2017 fall Assignment II as included in Supporting files.
 
 ## Improvements to Make
