@@ -45,7 +45,7 @@ class SetGame {
     var numberOfNewCardsRemaining: Int { return newCards.count }
     var matchingStatus: MatchingStatus { return PerformMatchTest() }
     var isAbleToDealThreeMoreCards: Bool { return tableCards.count + 3 <= maxTableCardsNumber && newCards.count > 0 }
-    var isGameCompleted: Bool { return newCards.isEmpty && numberOfSetsOnTable > 0 }
+    var isGameCompleted: Bool { return newCards.isEmpty && numberOfSetsOnTable == 0 }
     
     // MARK: Actions
     
