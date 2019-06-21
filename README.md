@@ -7,6 +7,8 @@ Tap the timer on the bottom left to show "hints".
 
 ## Notes
 
+See a demo video on [YouTube](https://youtu.be/2DaKJFIALI0).
+
 This is my first ever "usable" app written! By "usable" I mean something I dare to share with my friends, 
 even someone who does not do programming. The one with full UI and stuff. Althrough the game is not 
 very fun to play, but it is not the worth in the world either, and it is exactly the natural of the game. Yeah, 
